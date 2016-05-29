@@ -20,7 +20,6 @@ Instalacion  y configuracion entorno de trabajo
 	ionic -v
 3. SDK de android verificar documentacion de apache cordova
 
-
 4. crear la primera aplicacion en ionic
 	ionic start -a "Ejemplo1" -i app.ejemplo.uno ejemplo1 blank 
 	ionic start -a nombreLegibleHumanos -i nombreConDominio nombreDirectorio platilla 
@@ -52,17 +51,17 @@ salesforce ........... A starter project for Ionic and Salesforce
 sidemenu ............. A starting project for Ionic using a side menu with navigation in the content area
 tabs ................. A starting project for Ionic using a simple tabbed interface
 
-
-
 cambiar navegador por defecto
 viktor@viktor-Aspire-5741 ~/D/C/condeIonic (master)> sudo update-alternatives --config x-www-browser
 
 6. USO DE GENERATOR IONIC YEOMAN
-
+	Necesita bower
+	
 	npm install -g yo
 	npm install -g grunt-cli
 	npm install -g grunt
 
-	instalar el generador a usar generator-ionic
-	npm install -g generator-ionic
+	instalar el generador a usar generator-ionic (puede ser cualquera de YEOMAN)
+	npm install -g generator-ionic --	grunt serve
+
 
