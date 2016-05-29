@@ -52,3 +52,17 @@ salesforce ........... A starter project for Ionic and Salesforce
 sidemenu ............. A starting project for Ionic using a side menu with navigation in the content area
 tabs ................. A starting project for Ionic using a simple tabbed interface
 
+
+
+cambiar navegador por defecto
+viktor@viktor-Aspire-5741 ~/D/C/condeIonic (master)> sudo update-alternatives --config x-www-browser
+
+6. USO DE GENERATOR IONIC YEOMAN
+
+	npm install -g yo
+	npm install -g grunt-cli
+	npm install -g grunt
+
+	instalar el generador a usar generator-ionic
+	npm install -g generator-ionic
+
