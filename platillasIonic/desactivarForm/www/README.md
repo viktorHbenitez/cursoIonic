@@ -2,7 +2,10 @@
 
 En este ejercicio se desarrollara un formulario donde se deben cumplir las condiciones, en caso de que se cumplan de habilitara el botton de iniciar sesion
 
-## Uso de diractivas ng-Model ng-Disabled ng-ng-minlength
+## Uso de diractivas 
+ng-Model 
+ng-Disabled 
+ng-ng-minlength
 
 
 

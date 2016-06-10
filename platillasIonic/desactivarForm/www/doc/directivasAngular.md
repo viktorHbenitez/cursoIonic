@@ -1,5 +1,7 @@
-## https://docs.angularjs.org/api/ng/input/input%5Bemail%5D
+### Ejercicio desactivarForm ###
+video del curso https://www.youtube.com/watch?v=MEPnlVfmDTg&list=PLEtcGQaT56chdXOZeYY8uyFeHqDZQqgVg&index=11
 
+## https://docs.angularjs.org/api/ng/input/input%5Bemail%5D
 ## 11.- Introducción a Ionic. Integración con AngularJS.
 ## USO DE DIRECTIVAS AngularJS
 
@@ -14,3 +16,5 @@ ng-Model == Se indica que lo introducido sera asociado a una variable
   ng-disabled="expression"> == Evalua una expresion si es verdadera desactiva por ejemplo un boton
 ...
 </INPUT>
+
+
