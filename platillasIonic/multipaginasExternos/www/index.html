@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Dos paginas</title>
+    <title></title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -25,12 +25,23 @@
 
     <ion-pane>
       <ion-header-bar class="bar-stable">
-        <h1 class="title">Aplicacion de dos paginas</h1>
+        <h1 class="title">Vistas con archivos externos</h1>
       </ion-header-bar>
+      <!-- 3. Remplazamos ion-content x ion-nav-view :: le dice a router que porcion de codigo va a actualizar con el contenido de los estados-->
+      <ion-nav-view class="has-header"></ion-nav-view> <!-- .has-header :: agrega un espacio para que no se encime -->
 
-
-      <!-- Remplazamos ion-content  .has-header agrega un padding a la parte superior del container no se sobrepongan con el header bar al momento de ser mostrados-->
-      <ion-nav-view class="has-header"> </ion-nav-view>    
     </ion-pane>
+    <!-- 4. añadimos los templates en index.html por medio tag script -->
+    <script type="text/ng-template" id="templates/login.html">
+      <h1>Login Template</h1>
+      <button class="button button-calm" ui-sref="app">To App</button>
+    </script>
+    <script type="text/ng-template" id="templates/app.html">
+      <h1>App Template</h1>
+      <button class="button button-royal" ui-sref="login">To Login</button> <!-- ui-sref= vincula el enlaze a un estado -->
+
+    </script>
+
+
   </body>
 </html>
