@@ -21,6 +21,6 @@
 	ui-sref : vincula el enlaze a un estado
 	Si el estado tiene una url se dirige a la url indicada
 
-	Ejemplo: ui-sref="view1 == SE dirije a la url view1	 
+	Ejemplo: ui-sref="view1" == Se dirije a la url view1	 
 4. Debemos modificar el archivo index.html
 	añadimos la directiva ion-nav-view :: indicamos que parte del index se va a modificar cuando se lanze los estados.	
